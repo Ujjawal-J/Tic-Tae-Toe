@@ -14,4 +14,6 @@ To enable Tailwind CSS in this project, re-run the build process as follows:
 2. Run the following command:
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-For manual installation refer to:- https://tailwindcss.com/docs/installation/tailwind-cli
+---
+
+**For manual installation refer to**:- https://tailwindcss.com/docs/installation/tailwind-cli
