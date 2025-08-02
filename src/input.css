@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+body {
+  background-color: #10172a;
+}
+
+#mainContainer {
+  font-family: "Permanent Marker", cursive;
+}
+
+.cell {
+  @apply flex justify-center items-center text-7xl;
+  border-radius: 2px;
+  border: 4px solid rgb(255, 104, 4);
+  height: 140px;
+}
+
+#zero {
+  border-top: none;
+  border-left: none;
+}
+#first {
+  border-top: none;
+}
+#second {
+  border-top: none;
+  border-right: none;
+}
+#third {
+  border-left: none;
+}
+#fifth {
+  border-right: none;
+}
+#sixth {
+  border-bottom: none;
+  border-left: none;
+}
+#seventh {
+  border-bottom: none;
+}
+#eighth {
+  border-bottom: none;
+  border-right: none;
+}
+
+.turn {
+  @apply flex justify-center items-center text-3xl text-violet-600 font-extrabold mb-4;
+}
+
+/* cool button */
+/* #reset {
+  @apply rounded-[5px] bg-emerald-400 text-blue-600 p-4 mt-5 cursor-pointer hover:text-lime-500 hover:bg-indigo-700 hover:scale-125 focus:outline-none focus:ring-2 focus:ring-lime-500 active:opacity-70 transition: ease-in-out;
+} */
