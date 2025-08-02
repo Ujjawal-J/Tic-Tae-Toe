@@ -2,6 +2,10 @@
 
 A simple, interactive **2-player Tic-Tac-Toe game** built using **HTML**, **Tailwind CSS**, and **JavaScript**.
 
+## Preview
+
+![Tic Tac Toe Preview](./image/Screenshot%202025-08-02%20182559.png)
+
 ---
 
 ## Getting Started with TailwindCSS
